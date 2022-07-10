@@ -23,7 +23,7 @@ connectWithRetry();
 
 
 app.get("/", (req, res) => {
-     res.send("<h2>Welcome to Jayantha's Node.js App</H2");
+     res.send("<h2>Welcome to Jayantha Nagasinghe's Node.js App</H2");
 });
 
 const port = process.env.PORT || 3000;
